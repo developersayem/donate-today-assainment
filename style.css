@@ -29,6 +29,7 @@
             color: #fff;
             text-align: center;
             margin-bottom: 10px;
+            word-spacing: 2px;
         }
         
         .btn-primary {
@@ -62,6 +63,7 @@
             color: #707070;
             text-align: center;
             margin-bottom: 10px;
+            word-spacing: 2px;
         }
         
         .pre-amount {
@@ -124,6 +126,7 @@
             color: #707070;
             text-align: center;
             margin-bottom: 10px;
+            word-spacing: 2px;
         }
         
         .donate-plan-cards {
@@ -137,6 +140,7 @@
             width: 380px;
             background-color: aquamarine;
             margin: 10px;
+            margin-bottom: 150px;
         }
         
         .card h1 {
@@ -153,6 +157,7 @@
             margin-bottom: 10px;
             margin-left: 20px;
             text-align: left;
+            word-spacing: 2px;
         }
         
         .img {
@@ -172,4 +177,131 @@
         
         #edu-card {
             background-color: #FFF4D6;
+        }
+        /* STYLING THE OVERVIEW SECTION*/
+        
+        .overview-section {
+            height: 150vh;
+            background-color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .fist-overview,
+        .second-overview {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .text-container {
+            height: 450px;
+            width: 450px;
+            margin-right: 100px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: left;
+            word-spacing: 2px;
+        }
+        
+        .text-container h1 {
+            width: 90%;
+            text-align: left;
+        }
+        
+        .text-container p {
+            width: 90%;
+        }
+        
+        #text2-container {
+            margin-right: 0;
+            margin-left: 50px;
+        }
+        
+        .img-container img {
+            height: 450px;
+            width: 450px;
+        }
+        /* GET MY UPDATE SECTION STYLING... */
+        
+        .get-my-updates {
+            height: 100vh;
+            background-color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .get-my-updates h1 {
+            font-size: 40px;
+            color: #000;
+            margin-bottom: 10px;
+        }
+        
+        .get-my-updates p {
+            height: 3rem;
+            width: 50rem;
+            color: #707070;
+            text-align: center;
+            margin-bottom: 10px;
+            word-spacing: 2px;
+        }
+        
+        .mail-input {
+            display: flex;
+            padding: 50px 150px;
+            background-color: #FFF4D6;
+        }
+        
+        #subscribe {
+            background-color: #D9D9D9;
+            color: #AA9F9F;
+            border: none;
+            width: 250px;
+        }
+        
+         ::placeholder {
+            padding-left: 10px;
+        }
+        
+        .subscribe-btn {
+            text-decoration: none;
+            background-color: #FF5959;
+            color: #fff;
+            padding: 10px 20px;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+        }
+        /* STYLING SITE FOOTER */
+        
+        .site-footer {
+            height: 30vh;
+            width: 100vw;
+            background-color: #0B0D17;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .site-footer h1 {
+            font-size: 25px;
+            color: #FF5959;
+            margin-bottom: 50px;
+            font-style: italic;
+            font-weight: 700;
+        }
+        
+        .site-footer h3 {
+            font-size: 10px;
+            color: #D9DBE1;
+            margin-bottom: 10px;
         }
