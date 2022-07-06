@@ -1,0 +1,175 @@
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Lato', sans-serif;
+        }
+        /* STYLE FOR THE HEADER SECTION*/
+        
+        .header-section {
+            height: 100vh;
+            background-image: url(./images/donation9.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .header-section h1 {
+            font-size: 50px;
+            color: #fff;
+            margin-bottom: 10px;
+        }
+        
+        .header-section p {
+            height: 3rem;
+            width: 50rem;
+            color: #fff;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+        .btn-primary {
+            text-decoration: none;
+            background-color: #FF5959;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+        /* STYLE FOR THE DONATE SECTION*/
+        
+        .donate-section {
+            height: 100vh;
+            background-color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .donate-section h1 {
+            font-size: 40px;
+            color: #000;
+            margin-bottom: 10px;
+        }
+        
+        .donate-section p {
+            height: 3rem;
+            width: 50rem;
+            color: #707070;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+        .pre-amount {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .pre-amount ul {
+            display: flex;
+            list-style-type: none;
+        }
+        
+        .items {
+            padding: 40px 30px;
+            margin: 10px;
+            font-size: 25px;
+            font-weight: 700;
+            border-radius: 5px;
+            background-color: #FAFAFA;
+            color: #707070;
+        }
+        
+        .items-active {
+            border: 2px solid #FF5959;
+            background-color: #FFEEEE;
+        }
+        
+        .amount-input {
+            height: 20px;
+            width: 60%;
+            text-align: center;
+            border-top: 1px solid transparent;
+            border-bottom: 1px solid #DADADA;
+            border-left: 1px solid transparent;
+            border-right: 1px solid transparent;
+            margin-bottom: 20px;
+        }
+        /* STYLE FOR THE DONATE PLANES SECTION*/
+        
+        .donate-plan-section {
+            height: 100vh;
+            background-color: #fff;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .donate-plan-section h1 {
+            font-size: 40px;
+            color: #000;
+            margin-bottom: 10px;
+        }
+        
+        .donate-plan-section p {
+            height: 3rem;
+            width: 50rem;
+            color: #707070;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+        .donate-plan-cards {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .card {
+            height: 380px;
+            width: 380px;
+            background-color: aquamarine;
+            margin: 10px;
+        }
+        
+        .card h1 {
+            font-size: 28px;
+            color: #000;
+            margin-bottom: 30px;
+            margin-left: 20px;
+            text-align: left;
+        }
+        
+        .card p {
+            width: 90%;
+            color: #707070;
+            margin-bottom: 10px;
+            margin-left: 20px;
+            text-align: left;
+        }
+        
+        .img {
+            width: 15%;
+            height: 15%;
+            padding-top: 50px;
+            padding-left: 20px;
+        }
+        
+        #food-card {
+            background-color: #4f9da62c;
+        }
+        
+        #shelter-card {
+            background-color: #ff59592e;
+        }
+        
+        #edu-card {
+            background-color: #FFF4D6;
+        }
