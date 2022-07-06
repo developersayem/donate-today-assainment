@@ -201,13 +201,14 @@
         .text-container {
             height: 450px;
             width: 450px;
-            margin-right: 100px;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
             text-align: left;
             word-spacing: 2px;
+            margin-right: 150px;
+            margin-top: -50px;
         }
         
         .text-container h1 {
@@ -221,7 +222,7 @@
         
         #text2-container {
             margin-right: 0;
-            margin-left: 50px;
+            margin-left: 150px;
         }
         
         .img-container img {
@@ -284,7 +285,7 @@
         
         .site-footer {
             height: 30vh;
-            width: 100vw;
+            width: 98.6vw;
             background-color: #0B0D17;
             display: flex;
             flex-direction: column;
